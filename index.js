@@ -61,4 +61,4 @@ const domSelector = (document) => {
 
 // module.exports = domSelector;
 
-export default domSelector;
+export { domSelector };
