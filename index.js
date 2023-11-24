@@ -1,6 +1,4 @@
 const domSelector = (document) => {
-  const demoFunction = () => "Hello ";
-
   const getElementById = (selector) => {
     if (selector) {
       return document.getElementById(selector);
@@ -50,7 +48,6 @@ const domSelector = (document) => {
   };
 
   return {
-    demoFunction,
     querySelector,
     querySelectorAll,
     getElementById,
@@ -59,6 +56,4 @@ const domSelector = (document) => {
   };
 };
 
-// module.exports = domSelector;
-
-export { domSelector };
+export default domSelector;
